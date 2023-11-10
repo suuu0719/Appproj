@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="도움 &amp; 문의"
+        android:textSize="22dp"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/purple_btn"
+        android:fontFamily="@font/medium"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/help"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/choose_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="문의 유형"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/medium"
+            android:textSize="20dp"
+            />
+        
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/box_border"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="답변 받으실 이메일"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/medium"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/email_set"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:padding="10dp"
+            android:hint="email@example.com"
+            android:background="@drawable/box_border"
+            />
+
+        <TextView
+            android:id="@+id/inquiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="문의 내용"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/medium"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/inquiry_set"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/box_border"
+            android:layout_marginEnd="50dp"
+            android:padding="10dp"
+            android:hint="내용을 입력하세요."
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

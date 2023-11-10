@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Appproj</string>
+
+    <string name="test"> 여러줄 작성을 해보겠습니다 \n 줄바꿈하고 다시 치는중임</string>
+</resources>

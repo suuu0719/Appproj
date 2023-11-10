@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_spinner">
+        <item>유형1</item>
+        <item>유형2</item>
+        <item>유형3</item>
+        <item>유형4</item>
+    </string-array>
+</resources>

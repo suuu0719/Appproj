@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_setting"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="앱 설정"
+        android:textSize="22dp"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/purple_btn"
+        android:fontFamily="@font/medium"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:id="@+id/setting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_setting">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/medium"
+            android:text="앱 설정"
+            android:textColor="#888888"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/color_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/setting_text"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/color_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:padding="10dp"
+            android:src="@drawable/brush"></ImageView>
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/medium"
+            android:text="앱 색상 변경"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:src="@drawable/arrow_left"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/color_layout"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/notification_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:padding="10dp"
+            android:src="@drawable/notification"></ImageView>
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/medium"
+            android:text="알림 설정"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:src="@drawable/arrow_left"></ImageView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
