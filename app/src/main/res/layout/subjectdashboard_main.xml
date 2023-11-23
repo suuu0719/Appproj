@@ -5,11 +5,9 @@
     android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/myEditText"
+        android:id="@+id/myEditText1"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/img_16"
@@ -17,11 +15,9 @@
         android:textColor="#000000" />
 
     <EditText
-        android:id="@+id/myEditText"
+        android:id="@+id/myEditText2"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/img_16"
@@ -29,11 +25,9 @@
         android:textColor="#000000" />
 
     <EditText
-        android:id="@+id/myEditText"
+        android:id="@+id/myEditText3"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/img_16"
@@ -41,11 +35,9 @@
         android:textColor="#000000" />
 
     <EditText
-        android:id="@+id/myEditText"
+        android:id="@+id/myEditText4"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/img_16"
@@ -53,11 +45,9 @@
         android:textColor="#000000" />
 
     <EditText
-        android:id="@+id/myEditText"
+        android:id="@+id/myEditText5"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/img_16"
